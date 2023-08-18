@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html',{
+    "title": "Главная"
+  })
+  <body>
+    @@include('html/header.html',{})
+
+<h1></h1>
+    <div class="cart__container">
+      <input type="number" id="search__input" placeholder="Post id">
+      <button class="btn__search" id="btn__search"" >Serch</button>
+      <section>
+        <div class="post__list" id="post__list"></div>
+        <button class="btn__comments" id="btn__comments">Comments</button>
+        <div class="comments__list" id="comments__list"></div>
+      </section>
+    </div>
+    @@include('html/footer.html',{})
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>
