@@ -10,7 +10,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://prohorov01.github.io/Gulp",
+  "homepage": "https://prohorov01.github.io",
   "author": "",
   "license": "ISC",
   "devDependencies": {
